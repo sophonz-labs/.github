@@ -5,17 +5,20 @@
 
 <h1 align="center">sophonz labs</h1>
 
-<p align="center">Observability for mobile and web apps, and a terminal you can reach from anywhere.</p>
+<p align="center">Frontend-first, self-healing observability, and an ADE for coding agents on your terminal, from anywhere.</p>
 
 ## What we build
 
-<img src="observability.png" width="20" align="top" /> **sophonz observability** — an OpenTelemetry-based RUM/APM platform at [sophonz.com](https://sophonz.com).
-Sessions, traces, logs and crashes from Android, iOS, web, React Native, Flutter and Python, stored in ClickHouse. The collector is a fork of
+<img src="observability.png" width="20" align="top" /> **sophonz observability** — Frontend-first Observability, AI auto-fixes real-user problems.
+An OpenTelemetry-native platform at [sophonz.com](https://sophonz.com) that collects every signal from frontend to backend,
+straight from the real users of your deployed app, and lets Sophonz AI pinpoint root causes and suggest the fix: self-healing
+for the problems your users actually hit. SDKs for Android, iOS, web, React Native, Flutter and Python. The collector is a fork of
 [opentelemetry-collector-contrib](https://github.com/sophonz-labs/opentelemetry-collector-contrib).
 
-<img src="terminal.png" width="20" align="top" /> **sophonz terminal (`st`)** — your tmux sessions in a browser, a phone or a desktop app, over a control plane at
-[link.sophonz.io](https://link.sophonz.io). A single Go binary, with native iOS and Android apps and a Rust/GPUI
-desktop app. Install from [dl.sophonz.io](https://dl.sophonz.io) or the [Homebrew tap](https://github.com/sophonz-labs/homebrew-tap).
+<img src="terminal.png" width="20" align="top" /> **sophonz terminal (`st`)** — your terminal & ADE, on the go.
+An agentic development environment built on your terminal multiplexer. Run Claude Code, Codex, Gemini CLI or opencode
+on your machine, let one agent hand work to others, even on other machines, and watch and answer from the desktop app,
+your phone or any browser. No SSH client, no port forwarding, no key on your phone. Site: [sophonz.io](https://sophonz.io). Install from [dl.sophonz.io](https://dl.sophonz.io) or the [Homebrew tap](https://github.com/sophonz-labs/homebrew-tap).
 
 ## Open source
 
